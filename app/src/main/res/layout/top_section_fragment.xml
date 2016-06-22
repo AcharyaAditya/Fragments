@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toptext"
+        android:width="300dp"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomtext"
+        android:width="300dp"
+        android:layout_below="@+id/toptext"
+        android:layout_alignLeft="@+id/toptext"
+        android:layout_alignStart="@+id/toptext" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:id="@+id/createbutton"
+        android:layout_below="@+id/bottomtext"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
